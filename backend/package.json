@@ -1,0 +1,39 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Stack overflow application backend",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "all": "^0.0.0",
+    "bcrypt": "^5.0.1",
+    "bcrypt-nodejs": "^0.0.3",
+    "bcryptjs": "^2.4.3",
+    "chai": "^4.3.6",
+    "chai-http": "^4.3.0",
+    "config": "^3.3.7",
+    "connect": "^3.7.0",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "express-session": "^1.17.2",
+    "express-validator": "^6.14.0",
+    "jsonwebtoken": "^8.5.1",
+    "kafka-node": "^5.0.0",
+    "moongose": "^1.0.0",
+    "multer": "^1.4.4",
+    "mysql": "^2.18.1",
+    "passport": "^0.5.2",
+    "passport-jwt": "^4.0.0",
+    "passport-local": "^1.0.0",
+    "react-js-pagination": "^3.0.3",
+    "redis": "^4.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
